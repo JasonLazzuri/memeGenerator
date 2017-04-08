@@ -4,31 +4,40 @@
 }
 
 
-
-
-
 /*wonka Page*/
-#wonka{
-  display: block;
-  margin: 0 auto;
+#wonkaStart{
   padding-bottom: 20px;
   width: 400px;
 }
 #wonkaWell{
-  width: 19%;
+  width: 100%;
+  text-align: center;
 }
 button{
   height:auto;
   width:100px;
-  margin: -20px -50px;
   position:relative;
-  top:50%;
-  left:50%;
+
+  left:15%;
+  float: left;
 }
 .form-control{
-  width: 200px;
-  margin: 20px 50px;
+  width: 400px;
+  margin-bottom:20px;
   position:relative;
-  top:50%;
-  left:50%;
+
+}
+::placeholder{
+  text-align: center;
+  font-size: 20px;
+}
+input{
+  font-style: bold;
+}
+#wonkaEnd{
+width: 400px;
+position:relative;
+   top: 55px;
+   right:5%;
+
 }
